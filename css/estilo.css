@@ -64,6 +64,20 @@ main img.cartel {
   border-radius: 25px;
 }
 
+img.virreyes {
+  width: 85%;
+  height: auto;
+  margin: 8%;
+  border-radius: 25px;
+}
+
+img.san {
+  width: 85%;
+  height: auto;
+  margin: 8%;
+  border-radius: 25px;
+}
+
 img.propaganda {
   margin-left: 600px;
   margin-top: -750px;

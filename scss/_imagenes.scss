@@ -30,6 +30,20 @@ main {
     }
 }
 
+img.virreyes {
+    width: $tamImg;
+    height: $alto;
+    margin: $margen;
+    border-radius: $borde;
+}
+
+img.san {
+    width: $tamImg;
+    height: $alto;
+    margin: $margen;
+    border-radius: $borde;
+}
+
 img.propaganda {
     margin-left: 600px;
     margin-top: -750px;
