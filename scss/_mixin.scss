@@ -1,0 +1,29 @@
+$color-letra: black;
+$marginBox: 15px;
+
+@mixin caja_personalizada ($fondo: rgb(168, 222, 180)) {
+    background-color: $fondo;
+    border: 2px solid black;
+    box-shadow: 0px 0px 2px black;
+    color: $color-letra;
+    font-size: 22px;
+    font-family: Verdana, Tahoma, sans-serif;
+
+}
+
+.caja {
+    @include caja_personalizada()
+}
+
+.caja-dos {
+    @include caja_personalizada()
+}
+
+.caja-tres {
+    @include caja_personalizada()
+}
+.box {
+    @include caja_personalizada()
+}
+
+

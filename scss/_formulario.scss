@@ -1,0 +1,59 @@
+form.formulario {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    width: 420px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    background: lightgreen;
+
+    h3 {
+        font-size: 30px;
+        margin-bottom: 35px;
+    }
+
+    input {
+        padding: 17px;
+        border-radius: 25px;
+        background-color: whitesmoke;
+        border: 2px solid;
+        margin-bottom: 30px;
+        outline: none;
+        color: black;
+        font-size: 16px;
+    }
+
+    ::placeholder {
+        color: #5D7750;
+    }
+
+    .btn {
+        background-color: #78A95F;
+        border: 2px solid black;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: #8FE763;
+        border: 2px solid;
+    }
+
+    @media (max-width: 500px) {
+        width: 300px;
+        height: 850px;
+
+    }
+}
+
+form.formu {
+    input {
+        padding: 17px;
+        border-radius: 25px;
+        background-color: whitesmoke;
+        border: 2px solid;
+        margin-bottom: 15px;
+        outline: none;
+        color: black;
+        font-size: 16px;
+    }
+}

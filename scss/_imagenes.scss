@@ -1,0 +1,44 @@
+$tamImg: 85%;
+$alto: auto;
+
+$margen: 8%;
+$borde: 25px;
+
+main {
+    figure {
+        img.tambores {
+            width: $tamImg;
+            height: $alto;
+            margin: $margen;
+            border-radius: $borde;
+        }
+    }
+
+    img.vasos {
+        width: $tamImg;
+        height: $alto;
+        margin: $margen;
+        border-radius: $borde;
+    }
+
+    img.cartel {
+        width: 55%;
+        height: $alto;
+        margin: 13%;
+        border-radius: $borde;
+
+    }
+}
+
+img.propaganda {
+    margin-left: 600px;
+    margin-top: -750px;
+    width: 500px;
+    border-radius: $borde;
+}
+
+@media all and (max-width: 1000px) {
+    .propaganda {
+        display: none
+    }
+}
